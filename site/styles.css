@@ -1,1 +1,21 @@
 /* Tyhjä aloituspohja: lisää omat tyylisi. */
+nav {
+  padding-bottom: 20px; /* Lisää tilaa navigaation alapuolelle */
+}
+
+table {
+    border-collapse: collapse; /* Yhdistää reunat */
+    width: 100%;               /* Taulukko vie koko leveyden */
+    max-width: 100%;           /* Ei ylitä ruudun leveyttä */
+    font-family: Arial, sans-serif; /* Yhtenäinen fontti */
+}
+
+th, td {
+    border: 1px solid #ccc;   /* Selkeä raja soluille */
+    padding: 8px;             /* Sisäiset marginaalit */
+    text-align: left;          /* Tekstin tasaus */
+}
+
+th {
+    background-color: #14300e; /* Otsikkorivin väri */
+}
